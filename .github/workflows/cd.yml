@@ -21,5 +21,6 @@ jobs:
                     rm -rf ~/github-actions-demo
                     git clone https://github.com/SubhojitGuin/github-actions-demo.git
                     cd ~/github-actions-demo
+                    cp ~/.env .
                     docker compose pull
                     docker compose down && docker compose up -d

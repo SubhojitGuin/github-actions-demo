@@ -4,7 +4,7 @@ on:
     push:
 
 jobs:
-    build: # job name
+    build-and-push: # job name
         runs-on: ubuntu-latest # Github Runner (free)
         steps:
             - name: Checkout code
